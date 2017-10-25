@@ -14,6 +14,13 @@ public class Studienberatung {
 			// Branch hast du fachabitur
 			if (input.equalsIgnoreCase("n")) {
 				System.out.println ("Hast du Fachabitur?");
+				
+				// Branch nicht-studieren
+				input = scanner.nextLine();
+				if (input.equalsIgnoreCase("n")) {
+					System.out.println ("nicht studieren");
+				}
+				
 			}
 				
 			// Branch bist-duwissbegierig
