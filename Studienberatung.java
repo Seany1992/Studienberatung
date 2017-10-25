@@ -11,10 +11,10 @@ public class Studienberatung {
 			System.out.println("n oder j:");
 			String input = scanner.nextLine();
 			
-		
-		
-		
-		
+			if (input.equalsIgnoreCase("j")) {
+				System.out.println ("Bist du wissbegierig?");
+			}
+			
 	}
 	
 	
