@@ -27,8 +27,11 @@ public class Studienberatung {
 							System.out.println ("Besser noch studieren");
 						}
 				}
-				
-				
+							
+				// Branch nicht-studieren
+				if (input.equalsIgnoreCase("n")) {
+					System.out.println ("nicht studieren");
+				}			
 			}
 				
 			// Branch bist-duwissbegierig
