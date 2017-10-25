@@ -11,6 +11,10 @@ public class Studienberatung {
 			System.out.println("n oder j:");
 			String input = scanner.nextLine();
 			
+			// Branch hast du fachabitur
+			if (input.equalsIgnoreCase("n")) {
+				System.out.println ("Hast du Fachabitur?");
+			}
 		
 		
 		
