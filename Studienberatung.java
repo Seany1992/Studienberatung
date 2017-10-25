@@ -3,8 +3,6 @@ import java.util.*;
 public class Studienberatung {
 	public static void main (String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		boolean ready = true;
-		 
 		
 			System.out.println("Hast du Abitur?");
 	
@@ -37,6 +35,15 @@ public class Studienberatung {
 			// Branch bist-duwissbegierig
 			else if (input.equalsIgnoreCase("j")) {
 				System.out.println ("Bist du wissbegierig?");
+				
+				// Master
+				input = scanner.nextLine();
+				if(input.equalsIgnoreCase("j")) {
+							System.out.println ("Auf jeden Fall studieren");
+						}
+						else if(input.equalsIgnoreCase("n")){
+							System.out.println ("Nicht studieren");
+						}
 			}
 	}
 	
