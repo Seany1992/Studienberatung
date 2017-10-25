@@ -15,10 +15,11 @@ public class Studienberatung {
 			if (input.equalsIgnoreCase("n")) {
 				System.out.println ("Hast du Fachabitur?");
 			}
-		
-		
-		
-		
+				
+			// Branch bist-duwissbegierig
+			else if (input.equalsIgnoreCase("j")) {
+				System.out.println ("Bist du wissbegierig?");
+			}
 	}
 	
 	
